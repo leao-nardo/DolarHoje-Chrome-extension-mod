@@ -8,9 +8,10 @@ se baseia nesse extensao https://github.com/pedromenezes/DolarHoje-Chrome mas na
 https://chrome.google.com/webstore/detail/d%C3%B3lar-hoje/eemaaomlfllldamnpoajaedaemnblgal
 
 pra instalar no chrome/edge/opera 
-vai em manage extensions :chrome://extensions/
- ativa: Developer mode
- clica em : Load unpacked 
- poe o caminho ate a pasta : \eemaaomlfllldamnpoajaedaemnblgal\0.45_0
- e da ok 
- pronto.
+<ol>
+<li>vai em manage extensions :chrome://extensions/
+<li> ativa: Developer mode [modo de desenvolvedor]
+<li> clica em : Load unpacked 
+<li> poe o caminho ate a pasta : \eemaaomlfllldamnpoajaedaemnblgal\0.45_0
+<li> e da ok 
+<li> pronto.
