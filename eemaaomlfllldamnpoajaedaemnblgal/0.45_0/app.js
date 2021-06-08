@@ -3,7 +3,7 @@ var rate;
 App = {
 
   url: "https://dolarhoje.com/cotacao.txt",
-  reloadInterval: 900000, // 15 mins in ms
+  reloadInterval: 600000, // 10 mins in ms
 
   badgeBackgroundColor: [19, 32, 14, 255], // very darkish green
  // badgeBackgroundColor: [178, 183, 32, 255], // yellow
@@ -43,6 +43,8 @@ App = {
     chrome.browserAction.onClicked.addListener(function() {
       App.loadQuote();
       window.open("https://dolarhoje.com");
+      document.getElementById("estrangeiro").focus(); // poe o focus ja na input box ao abrir a pagina
+
     });
   },
 
